@@ -6,3 +6,5 @@ def rankchecker(profilescore):
         constant=constant+40+(status*10)
         if lowrange<= profilescore <=constant and round(profilescore,1)==profilescore:
             return status
+
+def 2

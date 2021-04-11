@@ -7,4 +7,7 @@ def rankchecker(profilescore):
         if lowrange<= profilescore <=constant and round(profilescore,1)==profilescore:
             return status
 
-def 2
+
+def Signup(request):
+    if request.method == 'POST':
+        form = SignUpForm(request.POST)
